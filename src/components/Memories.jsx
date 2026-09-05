@@ -47,7 +47,7 @@ const Memories = () => {
       </div>
 
       {/* Main Memory Content Area */}
-      <div className="w-full md:w-[60%] lg:w-[50%] rounded-2xl p-4 sm:p-6 md:p-8">
+      <div className="w-full md:w-[60%] lg:w-[70%] rounded-2xl p-4 sm:p-6 md:p-8">
         <Routes>
           <Route path="1" element={<M1 memory={memories[0]} />} />
           <Route path="2" element={<M2 memory={memories[1]} />} />

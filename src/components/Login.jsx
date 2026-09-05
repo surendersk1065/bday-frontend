@@ -64,7 +64,7 @@ const Login = () => {
               : 'bg-pink-800 hover:bg-pink-900 cursor-pointer hover:scale-105'
           }`}
         >
-          {loading ? 'Waking up server...' : 'Okie uh !!!'}
+          {loading ? 'pls wait for 5 sec uh...' : 'Okie uh !!!'}
         </button>
       </form>
     </div>
