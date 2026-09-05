@@ -45,7 +45,7 @@ const Login = () => {
 
       <form onSubmit={handleLogin} className="flex flex-col items-center gap-4 w-full max-w-xs">
         <input 
-          type="password" 
+          type="text" 
           value={pass} 
           className="border rounded-lg p-2.5 w-full text-center focus:outline-none focus:ring-2 focus:ring-pink-800" 
           onChange={(e) => setPass(e.target.value)}
