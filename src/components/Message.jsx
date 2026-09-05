@@ -14,7 +14,7 @@ const Message = () => {
         const getMessage = async () => {
             try {
                 const response = await axios.get(
-                    "http://localhost:5000/message"
+                    "https://bday-backend-f6kc.onrender.com/message"
                 )
 
                 if (response.data.success) {

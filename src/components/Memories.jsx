@@ -17,7 +17,7 @@ const Memories = () => {
   useEffect(() => {
     const getMemories = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/memories");
+        const response = await axios.get("https://bday-backend-f6kc.onrender.com/memories");
         setMemories(response.data);
       } catch (error) {
         console.log("Error fetching memories:", error);
