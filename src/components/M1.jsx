@@ -15,7 +15,7 @@ const M1 = ({ memory }) => {
             alt="Memory"
             className="rounded-2xl w-full max-w-xs sm:max-w-sm md:max-w-xs lg:max-w-sm h-auto object-cover shadow-xl"
           />
-          <p className="italic text-base sm:text-lg md:text-xl text-white max-w-xs leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-white max-w-xs leading-relaxed font-extrabold">
             "{memory.desc}"
           </p>
         </div>
